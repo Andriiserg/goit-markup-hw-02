@@ -28,14 +28,30 @@ ul, ol {
     letter-spacing: 0.32px;
 }
 
-.address > .address-ul {
+.address .address-ul {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.title {
+.address-ul .email:hover {
+    color: LightSalmon;
+}
+
+.address-ul .email:focus {
+    color: red;
+}
+
+.address-ul .phone:hover {
+    color: LightSalmon;
+}
+
+.address-ul .phone:focus {
+     color: red;
+}
+
+.title .section-title {
     background-color: NAVY BLUE;
 }
 
