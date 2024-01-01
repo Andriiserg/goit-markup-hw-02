@@ -11,7 +11,7 @@ ul, ol {
 	list-style-type: none;
 }
 
-.link-header {
+.main-link {
     text-transform: uppercase;
     font-family: Raleway;
     font-size: 18px;
@@ -35,7 +35,7 @@ ul, ol {
     letter-spacing: 0.32px;
 }
 
-.first-box {
+.title {
     background-color: NAVY BLUE;
 }
 
