@@ -3,24 +3,39 @@ body {
     background-color: WHITE;
 }
 
+/* remove underline */
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
+/* remove dots */
 ul, ol { 
 	list-style-type: none;
 }
 
-.main-link {
-    text-transform: uppercase;
+/* WEBSTUDIO logo */
+.first-part {
+    color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
-.ul-header {
+.second-part {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+/* navigation - make it in a list ?? SPAN - ??? */
+.navigation-list {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -28,34 +43,44 @@ ul, ol {
     letter-spacing: 0.32px;
 }
 
-.address .address-ul {
+/* contacts */
+.email {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.address-ul .email:hover {
+.phone {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.email:hover {
     color: LightSalmon;
 }
 
-.address-ul .email:focus {
+.email:focus {
     color: red;
 }
 
-.address-ul .phone:hover {
+.phone:hover {
     color: LightSalmon;
 }
 
-.address-ul .phone:focus {
+.phone:focus {
      color: red;
 }
 
-.title .section-title {
+
+/* main title with button */
+.title {
     background-color: NAVY BLUE;
 }
 
-.first-box-title {
+.main-title {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
