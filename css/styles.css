@@ -27,11 +27,11 @@ ul, ol {
     text-transform: uppercase;
 }
 
-.main-logo:hover {
+a:hover {
     color: #404bbf;
 }
 
-.main-logo:focus {
+a:focus {
     color: #404bbf;
 }
 
